@@ -84,15 +84,81 @@
         "button"
       ],
       "settings": {
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
+        "image": "shopify:\/\/shop_images\/DSC_0011_1024x1024_0f527091-4752-40eb-87be-cb357225376b.jpg",
+        "height": "small",
+        "color_scheme": "accent-1",
+        "layout": "text_first"
+      }
+    },
+    "1628682288c358f6b0": {
+      "type": "collage",
+      "blocks": {
+        "1628682288c358f6b0-0": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify:\/\/shop_images\/bryn.jpg",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video for customers using screen readers",
+            "image_padding": false
+          }
+        },
+        "1628682288c358f6b0-1": {
+          "type": "product",
+          "settings": {
+            "product": "bundle-able-product",
+            "secondary_background": false,
+            "second_image": false,
+            "image_padding": false
+          }
+        },
+        "1628682288c358f6b0-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "subscription-kegs",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "1628682288c358f6b0-0",
+        "1628682288c358f6b0-1",
+        "1628682288c358f6b0-2"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "1628682532bb62e70a": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1628682544a4bffe55": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": ""
+      }
+    },
+    "162868255680a1cd52": {
+      "type": "page",
+      "settings": {
+        "page": "subscription"
       }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
-    "image_text"
+    "image_text",
+    "1628682288c358f6b0",
+    "1628682532bb62e70a",
+    "1628682544a4bffe55",
+    "162868255680a1cd52"
   ]
 }
