@@ -147,8 +147,44 @@
     },
     "162868255680a1cd52": {
       "type": "page",
+      "disabled": true,
       "settings": {
         "page": "subscription"
+      }
+    },
+    "16286825635825762b": {
+      "type": "image-with-text",
+      "blocks": {
+        "16286825635825762b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "16286825635825762b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "16286825635825762b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16286825635825762b-0",
+        "16286825635825762b-1",
+        "16286825635825762b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Skype_Picture_2021_07_20T09_03_48_205Z.jpg",
+        "height": "small",
+        "color_scheme": "background-1",
+        "layout": "image_first"
       }
     }
   },
@@ -159,6 +195,7 @@
     "1628682288c358f6b0",
     "1628682532bb62e70a",
     "1628682544a4bffe55",
-    "162868255680a1cd52"
+    "162868255680a1cd52",
+    "16286825635825762b"
   ]
 }
