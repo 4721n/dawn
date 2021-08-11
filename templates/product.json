@@ -100,6 +100,13 @@
         "enable_video_looping": false
       }
     },
+    "16286827950277e1bf": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -114,6 +121,7 @@
   },
   "order": [
     "main",
+    "16286827950277e1bf",
     "product-recommendations"
   ]
 }
