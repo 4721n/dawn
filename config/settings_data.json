@@ -3,6 +3,8 @@
     "colors_accent_1": "#106c3b",
     "colors_accent_2": "#00286b",
     "colors_outline_button_labels": "#b4e8ff",
+    "type_header_font": "open_sans_n4",
+    "sale_badge_color_scheme": "accent-1",
     "currency_code_enabled": false,
     "sections": {
       "announcement-bar": {
