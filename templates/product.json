@@ -19,7 +19,7 @@
           "type": "text",
           "settings": {
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
+            "text_style": "uppercase"
           }
         },
         "price": {
@@ -44,6 +44,24 @@
             "show_dynamic_checkout": true
           }
         },
+        "a8cae982-513d-42f3-831e-ddc7090753bb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingredients",
+            "content": "<p>water, malted barley, wheat, oats, hops and yeast<br\/><\/p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "a895799b-fe41-421f-bdfb-b62d85e3b237": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Build Your Own Mixed Case!",
+            "content": "<p> Add any 4 six packs of your favourite Small Beers to your cart and your automatic case discount will be ready for you at checkout, with FREE UK delivery.<\/p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -51,7 +69,15 @@
         },
         "share": {
           "type": "share",
+          "disabled": true,
           "settings": {
+          }
+        },
+        "e6889ac3-4559-4907-ba2c-f928381fcb1e": {
+          "type": "popup",
+          "settings": {
+            "link_label": "Want to see how it's brewed",
+            "page": "brewery-tours"
           }
         }
       },
@@ -63,8 +89,11 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "a8cae982-513d-42f3-831e-ddc7090753bb",
+        "a895799b-fe41-421f-bdfb-b62d85e3b237",
         "description",
-        "share"
+        "share",
+        "e6889ac3-4559-4907-ba2c-f928381fcb1e"
       ],
       "settings": {
         "enable_sticky_info": true,
